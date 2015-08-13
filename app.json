@@ -1,0 +1,28 @@
+{
+    "name": "Cloudflare DDNS",
+    "description": "A Node script to update a Cloudflare record just from calling an URL",
+    "keywords": ["node", "express", "cloudflare", "dns", "ddns"],
+    "repository": "https://github.com/th3m4ri0/cloudflare-ddns.js",
+    "env": {
+        "API_KEY": {
+            "description": "Your Cloudflare API key",
+            "value": ""
+        },
+        "EMAIL": {
+            "description": "Your Cloudflare account's email",
+            "value": ""
+        },
+        "SECRET": {
+            "description": "The secret key for your app.",
+            "generator": "secret"
+        },
+        "DOMAIN": {
+            "description": "The domain of your record",
+            "value": "example.com"
+        },
+        "SUBDOMAIN": {
+            "description": "The subdomain that will get its IP change (following example will change home.example.com)",
+            "value": "home"
+        }
+    }
+}

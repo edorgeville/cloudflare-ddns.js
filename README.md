@@ -1,5 +1,5 @@
 # Cloudflare DDNS
-## A Node script to update a Cloudflare record just from calling an URL.
+## A Node script to update a Cloudflare record just from calling an URL
 
 ## How to use 
 Make a ``GET`` request to this URL :
@@ -23,8 +23,12 @@ export SUBDOMAIN=
 node index.js
 ```
 
-## How setup on Heroku
+## How to setup on Heroku
 
+Use the following button  
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+or do it like a warrior :neckbeard: !
 ```
 git clone git@github.com:th3m4ri0/cloudflare-ddns.js.git
 heroku create
